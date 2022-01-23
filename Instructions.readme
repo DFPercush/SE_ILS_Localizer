@@ -1,0 +1,34 @@
+﻿ILS localizer
+
+By DFPercush 2022
+github.com/DFPercush
+Tips: ko-fi.com/DFPercush
+
+Broadcasts coordinates of a particular runway/carrier.
+
+This script is used in conjunction with the aerodynamic autopilot script.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2728424855
+
+Setup goes best with Digi's camera panning mod.
+https://steamcommunity.com/workshop/filedetails/?id=806331071
+
+Requires a radio antenna for operation, and
+a camera block for setup.
+
+For stationary runways or fields, place the programmable block anywhere.
+For moving, rotating, or floating platforms, the programmable block
+must be placed on the same subgrid as the runway platform.
+
+Make 2 hotbar buttons which call this script with
+arguments "start" and "end" (no quotes). Go into a camera,
+point at the start of the runway, and press start.
+Then point at the end of the runway, and press end.
+You should give yourself some margin on the start,
+to give planes some room if they come in slightly low,
+because they will.
+
+After that, as long as this script is running and the
+antenna broadcast is turned on, the localizer should
+enable planes with the autopilot script to land automatically.
+If all is well, the programmable block should be printing
+the name of your grid, and the last time of broadcast.
